@@ -31,11 +31,6 @@ Welcome to the Comic Generation project, where we explore the exciting intersect
 
 Encountering challenges, we refined the stable diffusion model by fine-tuning it with images matching the desired comic art style. To address the uniformity across panels, a Similarity Metric was introduced, ensuring content preservation and information transfer.
 
-Our contributions include:
-- Application of text-to-image diffusion models for generating comic panels.
-- Implementation of style transfer techniques.
-- Extensive study on maintaining style and content consistency.
-
 Explore our results to see a series of comic panels with a consistent art style, showcasing the model's ability to transform text prompts into engaging visual narratives.
 
 ## Methodology
@@ -62,6 +57,8 @@ To generate comics using the provided pipeline, create a story from the notebook
 
 
 ## Results
+
+### Diffusion Model
 ![Canny Edge Features](DiffusionImages/txt2img_grid.png)
 
 ### Large Language Model
@@ -72,40 +69,16 @@ The prompts given to both the models are the same, which is: "Generate a story a
 We notice how the chat model performs much better in this context which enabled us to zero shot prompt it for generating stories.
 The prompts are also iteratively developed for the second stage of the process - creation of diffusion prompts which can be found in Language_Model/Dog_Story.ipynb
 
-The results can be seen in ![Experiment 1](Language_Model/Dog_Story.ipynb):
-
-#### Non-Finetuned
-[INST]Generate a story about how a dog learns it has superpowers[/INST]
-[INST]Generate a 2 panel comic[/INST]
-[INST]Generate a story about how a dog learns it has superpowers[/INST] [INST]Generate a 2 panel comic[/INST]
-[INST]Generate a story about how a dog learns it has superpowers[/INST]
-[INST]Generate a 2 panel comic[/INST] [INST]Generate a story about how a dog learns it has superpowers[/INST]
-[INST]Generate a 2 panel comic[/INST] [INST]Generate a story about how a dog learns it has superpowers[/INST] [INST]Generate a 2 panel comic[/INST]
-[INST]Generate a story about how a dog learns it has superpowers[/INST] [INST]Generate a 2 panel comic[/INST] [INST]Generate a story about how a dog learns it has superpowers[/INST] [INST]Generate
-
-#### Finetuned
-Panel 1:
-
-(A fluffy white dog named Max is sitting on the couch, looking bored. Suddenly, he notices a strange glow emanating from his paws.)
-
-Max: (excitedly) Woah, what's happening?!
-
-(Max's paws start to glow brighter and brighter, and he starts to feel a strange energy coursing through his body.)
-
-Panel 2:
-
-(Max's paws are now glowing bright blue, and he's floating off the ground. He looks around in amazement.)
-
-Max: (excitedly) I have superpowers! I can fly and shoot laser beams from my paws!
-
-(Max starts to fly around the room, barking happily. The glow from his paws fades away, but he's still floating in mid-air.)
-
-Max: (to himself) This is the best day ever!
+The results can be seen in [Language Model Iteration](Language_Model/Dog_Story.ipynb):
 
 
 ## Experiments
 
 ## Contributions
+Our contributions include:
+- Application of text-to-image diffusion models for generating comic panels.
+- Implementation of style transfer techniques.
+- Extensive study on maintaining style and content consistency.
 
 ## License
 
