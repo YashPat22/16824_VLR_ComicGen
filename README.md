@@ -40,6 +40,8 @@ Explore our results to see a series of comic panels with a consistent art style,
 
 ## Methodology
 
+The dataset includes two art styles - the first style is action-based with lots of motion, and the second style is more cartoon-like.
+
 The pipeline involves a text-to-image-to-image structure, utilizing large language models, stable diffusion models, and fine-tuning techniques. The process includes story generation, prompt generation for diffusion models, stable diffusion with fine-tuning, and a control network for style transfer.
 
 For a detailed explanation of the methodology, refer to the Methodology section in the Report.
