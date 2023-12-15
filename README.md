@@ -81,5 +81,6 @@ Our contributions include:
 - Extensive study on maintaining style and content consistency.
 
 ## License
+This project is MIT licensed.
 
 ## Acknowledgements
