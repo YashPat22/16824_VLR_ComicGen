@@ -49,7 +49,7 @@ To generate comics using the provided pipeline, create a story from the notebook
 
 
 ## Results
-![imgonline-com-ua-twotoone-65pfr6er8XxxQcO](https://github.com/YashPat22/16824_VLR_ComicGen/assets/98067123/e394cd6a-3a52-4b30-9588-d4a24e25a67c | width=100)
+![](https://github.com/YashPat22/16824_VLR_ComicGen/assets/98067123/e394cd6a-3a52-4b30-9588-d4a24e25a67c | width = 100)
 
 
 ## Experiments
