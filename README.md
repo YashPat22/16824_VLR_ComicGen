@@ -27,7 +27,7 @@ Welcome to the Comic Generation project, where we explore the exciting intersect
 - **Objective:** Develop a model for generating comics from text.
 - **Questions:**
   1. How do we maintain a consistent style across comic panels?
-  2. What methods enable smooth transitions between different art styles within the comic?
+  2. What methods enable effective comic panel generation from the text prompts?
 
 Encountering challenges, we refined the stable diffusion model by fine-tuning it with images matching the desired comic art style. To address the uniformity across panels, a Similarity Metric was introduced, ensuring content preservation and information transfer.
 
