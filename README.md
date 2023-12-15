@@ -40,6 +40,20 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 
 git clone https://github.com/YashPat22/16824_VLR_ComicGen
+
 2. Install required dependencies
 
-3. 
+## Usage
+
+To generate comics using the provided pipeline, create a story from the notebook by modifying the prompts and saving them as a text file. Feed them into
+
+
+## Results
+
+## Experiments
+
+## Contributions
+
+## License
+
+## Acknowledgements
