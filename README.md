@@ -39,8 +39,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
 
-git clone [https://github.com/your-username/your-repository.git](https://github.com/YashPat22/16824_VLR_ComicGen)https://github.com/YashPat22/16824_VLR_ComicGen
-
+git clone https://github.com/YashPat22/16824_VLR_ComicGen
 2. Install required dependencies
 
 3. 
