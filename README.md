@@ -64,6 +64,44 @@ To generate comics using the provided pipeline, create a story from the notebook
 ## Results
 ![Canny Edge Features](DiffusionImages/txt2img_grid.png)
 
+### Large Language Model
+Before the Large Language Model is used, a test is done to check how the untrained Lanugage Model performs against the fine-tuned chat model.
+
+The prompts given to both the models are the same, which is: \textbf{\textit{"Generate a story about how a dog learns it has superpowers [INST]Generate a 2 panel comic[/INST]"}}
+
+We notice how the chat model performs much better in this context which enabled us to zero shot prompt it for generating stories.
+The prompts are also iteratively developed for the second stage of the process - creation of diffusion prompts which can be found in Language_Model/Dog_Story.ipynb
+
+The results are as follows:
+
+#### Non-Finetuned
+[INST]Generate a story about how a dog learns it has superpowers[/INST]
+[INST]Generate a 2 panel comic[/INST]
+[INST]Generate a story about how a dog learns it has superpowers[/INST] [INST]Generate a 2 panel comic[/INST]
+[INST]Generate a story about how a dog learns it has superpowers[/INST]
+[INST]Generate a 2 panel comic[/INST] [INST]Generate a story about how a dog learns it has superpowers[/INST]
+[INST]Generate a 2 panel comic[/INST] [INST]Generate a story about how a dog learns it has superpowers[/INST] [INST]Generate a 2 panel comic[/INST]
+[INST]Generate a story about how a dog learns it has superpowers[/INST] [INST]Generate a 2 panel comic[/INST] [INST]Generate a story about how a dog learns it has superpowers[/INST] [INST]Generate
+
+#### Finetuned
+Panel 1:
+
+(A fluffy white dog named Max is sitting on the couch, looking bored. Suddenly, he notices a strange glow emanating from his paws.)
+
+Max: (excitedly) Woah, what's happening?!
+
+(Max's paws start to glow brighter and brighter, and he starts to feel a strange energy coursing through his body.)
+
+Panel 2:
+
+(Max's paws are now glowing bright blue, and he's floating off the ground. He looks around in amazement.)
+
+Max: (excitedly) I have superpowers! I can fly and shoot laser beams from my paws!
+
+(Max starts to fly around the room, barking happily. The glow from his paws fades away, but he's still floating in mid-air.)
+
+Max: (to himself) This is the best day ever!
+
 
 ## Experiments
 
