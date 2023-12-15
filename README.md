@@ -21,11 +21,22 @@ Access to LlaMa-2 (https://github.com/facebookresearch/codellama)
 
 ## Introduction
 
-Comics, with their entertaining and humorous nature, seamlessly blend text and illustrations, creating a distinct and intricate form of storytelling. This project explores the potential of machine learning techniques to produce comic illustrations based on provided text prompts.
+Welcome to the Comic Generation project, where we explore the exciting intersection of text prompts and machine learning to create captivating comic illustrations. Leveraging stable diffusion models for visual storytelling consistency\cite{rombach2021highresolution}, our goal is to develop a model that generates comics in a specified style from textual prompts.
 
-The central objectives include:
-- Developing a model capable of generating comics in a specified style from textual prompts.
-- Addressing questions related to style consistency across comic panels and facilitating style changes within the comic.
+## Project Objectives and Questions
+- **Objective:** Develop a model for generating comics from text.
+- **Questions:**
+  1. How do we maintain a consistent style across comic panels?
+  2. What methods enable smooth transitions between different art styles within the comic?
+
+Encountering challenges, we refined the stable diffusion model by fine-tuning it with images matching the desired comic art style. To address the uniformity across panels, a Similarity Metric was introduced, ensuring content preservation and information transfer.
+
+Our contributions include:
+- Application of text-to-image diffusion models for generating comic panels.
+- Implementation of style transfer techniques.
+- Extensive study on maintaining style and content consistency.
+
+Explore our results to see a series of comic panels with a consistent art style, showcasing the model's ability to transform text prompts into engaging visual narratives.
 
 ## Methodology
 
