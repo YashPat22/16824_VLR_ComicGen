@@ -67,12 +67,12 @@ To generate comics using the provided pipeline, create a story from the notebook
 ### Large Language Model
 Before the Large Language Model is used, a test is done to check how the untrained Lanugage Model performs against the fine-tuned chat model.
 
-The prompts given to both the models are the same, which is: \textbf{\textit{"Generate a story about how a dog learns it has superpowers [INST]Generate a 2 panel comic[/INST]"}}
+The prompts given to both the models are the same, which is: "Generate a story about how a dog learns it has superpowers [INST]Generate a 2 panel comic[/INST]"
 
 We notice how the chat model performs much better in this context which enabled us to zero shot prompt it for generating stories.
 The prompts are also iteratively developed for the second stage of the process - creation of diffusion prompts which can be found in Language_Model/Dog_Story.ipynb
 
-The results are as follows:
+The results can be seen in ![Experiment 1](Language_Model/Dog_Story.ipynb):
 
 #### Non-Finetuned
 [INST]Generate a story about how a dog learns it has superpowers[/INST]
