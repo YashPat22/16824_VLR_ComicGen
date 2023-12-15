@@ -62,7 +62,7 @@ To generate comics using the provided pipeline, create a story from the notebook
 
 
 ## Results
-![Canny Edge Features](DiffusionImages/txt2img_grid.png | width = 100)
+![Canny Edge Features](DiffusionImages/txt2img_grid.png)
 
 
 ## Experiments
