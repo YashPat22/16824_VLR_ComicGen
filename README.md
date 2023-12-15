@@ -62,7 +62,7 @@ To generate comics using the provided pipeline, create a story from the notebook
 
 
 ## Results
-![Canny Edge Features](https://github.dev/YashPat22/16824_VLR_ComicGen/blob/main/DiffusionImages/CannyEdges.jpg)
+![Canny Edge Features]([https://github.dev/YashPat22/16824_VLR_ComicGen/blob/main/DiffusionImages/CannyEdges.jp](https://github.com/YashPat22/16824_VLR_ComicGen/blob/be501203790cd901e9204d0d4a3a464047bdc6c2/DiffusionImages/txt2img_grid.png)https://github.com/YashPat22/16824_VLR_ComicGen/blob/be501203790cd901e9204d0d4a3a464047bdc6c2/DiffusionImages/txt2img_grid.png)
 
 
 ## Experiments
