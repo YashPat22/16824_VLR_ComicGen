@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 To generate comics using the provided pipeline, create a story from the notebook by modifying the prompts and saving them as a text file. Feed them into the diffusion model.
 
-To finetune the diffusion model, please run the !(train_dreamboothh.py) reference this [link](https://github.com/huggingface/diffusers/tree/main/examples/dreambooth#Installing-the-dependencies).
+To finetune the diffusion model, please run the !(train_dreambooth.py) reference this [link](https://github.com/huggingface/diffusers/tree/main/examples/dreambooth#Installing-the-dependencies).
 ## Results
 
 ### Diffusion Model
