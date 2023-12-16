@@ -54,7 +54,7 @@ git clone https://github.com/YashPat22/16824_VLR_ComicGen
 
 ## Usage
 
-To generate comics using the provided pipeline, create a story from the notebook by modifying the prompts and saving them as a text file. Feed them into
+To generate comics using the provided pipeline, create a story from the notebook by modifying the prompts and saving them as a text file. Feed them into the diffusion model.
 
 
 ## Results
