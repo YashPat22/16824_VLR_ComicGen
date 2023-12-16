@@ -52,6 +52,13 @@ git clone https://github.com/YashPat22/16824_VLR_ComicGen
 ```
 2. Install required dependencies:
 [Requirements](requirements.txt)
+```bash
+conda install --file requirements.txt
+```
+or
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
