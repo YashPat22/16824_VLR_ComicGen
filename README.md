@@ -72,6 +72,8 @@ To generate comics using the provided pipeline, create a story from the notebook
 ![Diffusion Model Pipeline](diffusion.png)
 ![Canny Edge Features](DiffusionImages/txt2img_grid.png)
 
+All the result images can be found in: [Diffusion Images](DiffusionImages/)
+
 ### Large Language Model
 ![Language Model Pipeline](LanguageModel.png)
 Before the Large Language Model is used, a test is done to check how the untrained Lanugage Model performs against the fine-tuned chat model.
