@@ -41,6 +41,8 @@ The pipeline involves a text-to-image-to-image structure, utilizing large langua
 
 For a detailed explanation of the methodology, refer to the Methodology section in the Report.
 
+![Full Pipeline](full_pipeline.png)
+
 ## Getting Started
 
 To get started with the project, follow these steps:
@@ -62,6 +64,7 @@ To generate comics using the provided pipeline, create a story from the notebook
 ![Canny Edge Features](DiffusionImages/txt2img_grid.png)
 
 ### Large Language Model
+![Language Model Pipeline](LanguageModel.png)
 Before the Large Language Model is used, a test is done to check how the untrained Lanugage Model performs against the fine-tuned chat model.
 
 The prompts given to both the models are the same, which is: "Generate a story about how a dog learns it has superpowers [INST]Generate a 2 panel comic[/INST]"
