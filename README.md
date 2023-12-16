@@ -69,9 +69,13 @@ To generate comics using the provided pipeline, create a story from the notebook
 ## Results
 
 ### Diffusion Model
+The diagram below shows the overall diffusion pipeline.
 ![Diffusion Model Pipeline](diffusion.png)
+
+To visualize different experiments, we fixed the result of the txt2img diffsion model as shown below: 
 ![Canny Edge Features](DiffusionImages/txt2img_grid.png)
 
+Based on the generated txt2img image, we ran different experiments with guidance scale and inference steps.
 All the result images can be found in: [Diffusion Images](DiffusionImages/)
 
 ### Large Language Model
