@@ -14,7 +14,6 @@ Access to LlaMa-2 (https://github.com/facebookresearch/codellama)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Results](#results)
-- [Experiments](#experiments)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -73,9 +72,6 @@ We notice how the chat model performs much better in this context which enabled 
 The prompts are also iteratively developed for the second stage of the process - creation of diffusion prompts which can be found in Language_Model/Dog_Story.ipynb
 
 The results can be seen in [Language Model Iteration](Language_Model/Dog_Story.ipynb):
-
-
-## Experiments
 
 ## Contributions
 Our contributions include:
