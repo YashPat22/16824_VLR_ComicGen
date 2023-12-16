@@ -1,5 +1,5 @@
-# Few-Shot Fine-Tuning for Diffusion Based Comic Generation (Text to Image | Large Language Model + Diffusion)
-This repository is created for the project done for 16824 - Visual Learning and Recognition course offered at CMU (Fall 2023).
+# Few-Shot Fine-Tuning for Diffusion-Based Comic Generation (Text to Image | Large Language Model + Diffusion)
+This repository is created for the project done for 16824 - Visual Learning and Recognition course offered at Carnegie Mellon University (Fall 2023).
 This repository contains the code for a novel approach to generating comics by employing machine learning techniques. The project focuses on transforming text prompts into visually expressive comic illustrations, utilizing stable diffusion models for coherence in visual storytelling.
 
 
