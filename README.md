@@ -60,6 +60,7 @@ To generate comics using the provided pipeline, create a story from the notebook
 ## Results
 
 ### Diffusion Model
+![Diffusion Model Pipeline](diffusion.png)
 ![Canny Edge Features](DiffusionImages/txt2img_grid.png)
 
 ### Large Language Model
