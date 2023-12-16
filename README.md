@@ -14,7 +14,7 @@ Access to LlaMa-2 (https://github.com/facebookresearch/codellama)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
