@@ -88,7 +88,7 @@ This project is MIT licensed.
 # Acknowledgments
 We would like to express our gratitude to the following individuals and resources for their valuable contributions and support during the development of this class project:
 
-- **[Prof. Jun-Yan Zhu]:** We extend our sincere appreciation to [Prof. Jun-Yan Zhu] and the teaching team for their guidance, mentorship, and insightful feedback throughout the project. Their expertise has been instrumental in shaping our understanding and approach.
+- **Prof. Jun-Yan Zhu:** We extend our sincere appreciation to Prof. Jun-Yan Zhu and the teaching team for their guidance, mentorship, and insightful feedback throughout the project. Their expertise has been instrumental in shaping our understanding and approach.
 
 - **Open Source Community:** We appreciate the broader open-source community for creating and maintaining the tools, libraries, and platforms that supported our project.
 
